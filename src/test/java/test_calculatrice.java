@@ -20,7 +20,7 @@ public class test_calculatrice {
     }
 
     //.............. Methode test Max (pour simuller une erreur)
-
+    //Add comment
     //Dossier de test
     //Cas de dépassement de limite
     @Test(expected = IndexOutOfBoundsException.class)

@@ -8,7 +8,7 @@ public class   calculatrice {
             //la condition suite est pour créer une exeption (MAX+1 = MIN
             // cela veut dire la case binaire est pleine et ca cree une exception)
             //le code suivant est fait pour créer une erreur
-        if(a > 0 && b > 0 && a + b > Integer.MAX_VALUE)
+        if(a > 0 && b > 0 && a + b <= 0 )
         {
             //Appel de la classe throw avec instance de IndexOutOfBoundsException
             throw new IndexOutOfBoundsException();
